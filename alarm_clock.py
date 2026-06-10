@@ -11,7 +11,7 @@ import schedule
 
 # ── Config ──────────────────────────────────────────────────────────────────
 
-ALARMS_FILE = Path.home() / ".alarm_clock_data.json"
+ALARMS_FILE = Path.home() / "alarm_clock_data.json"
 CHECK_INTERVAL = 10  # seconds between schedule checks
 
 # ── ANSI Colors (graceful fallback on Windows) ───────────────────────────────

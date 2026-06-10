@@ -43,7 +43,7 @@ sequenceDiagram
 
 ## 4. Data Persistence Strategy
 
-**Format Chosen**: JSON Document (`~/.alarm_clock_data.json`)
+**Format Chosen**: JSON Document (`~/alarm_clock_data.json`)
 
 **Trade-off Analysis**:
 - *SQLite*: Offers robust querying and transactional safety, but is overkill for a dataset that rarely exceeds 10-20 items. Requires additional overhead.

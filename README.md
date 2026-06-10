@@ -11,7 +11,7 @@ This project demonstrates core software engineering principles including dual-th
 ## ✨ Features
 
 - **Concurrent Execution**: A background daemon reliably tracks time while the main thread handles terminal UI, avoiding blocking I/O collisions.
-- **State Persistence**: Alarms are serialized to a local JSON datastore (`~/.alarm_clock_data.json`) ensuring survival across system reboots.
+- **State Persistence**: Alarms are serialized to a local JSON datastore (`~/alarm_clock_data.json`) ensuring survival across system reboots.
 - **Graceful Degradation**: Built with cross-platform ANSI color support that degrades gracefully in non-TTY environments.
 - **Snooze & Recurrence**: Smart state mutations allow for daily repeating alarms and 5-minute snoozes without complex state machines.
 - **Zero Heavy Dependencies**: Relies primarily on the Python standard library, utilizing `schedule` for clean, readable background cron tasks.
@@ -48,7 +48,7 @@ Upon launching, the TUI (Terminal User Interface) will present a menu:
 ║        🕐  CLI Alarm Clock            ║
 ╚══════════════════════════════════════╝
 
-  Alarms stored at: /Users/username/.alarm_clock_data.json
+  Alarms stored at: /Users/username/alarm_clock_data.json
   Checking every 10s
 
   [1] Set alarm
