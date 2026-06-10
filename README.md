@@ -77,7 +77,7 @@ pytest test_alarm_clock.py -v
 ## 📂 Project Structure
 
 ```text
-cli-alarm-clock/
+alarm-clock/
 ├── alarm_clock.py        # Main application and threading logic
 ├── test_alarm_clock.py   # Pytest suite for unit verification
 ├── requirements.txt      # Project dependencies
