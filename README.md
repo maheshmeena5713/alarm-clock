@@ -27,8 +27,8 @@ This project demonstrates core software engineering principles including dual-th
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/cli-alarm-clock.git
-cd cli-alarm-clock
+git clone https://github.com/<your-username>/alarm-clock.git
+cd alarm-clock
 
 # 2. Install dependencies
 pip install -r requirements.txt
